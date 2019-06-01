@@ -1,5 +1,5 @@
 # Data Competition: Future Food Challenge
-Link to the competition: https://tianchi.aliyun.com/competition/entrance/231705/introduction. We are rank **5/661** teams.
+Link to the competition: https://tianchi.aliyun.com/competition/entrance/231705/introduction. We are rank **5** out of **661** teams.
 
 # Context
 This competition requires developing an algorithm to identify food safety incidents from a bunch of news, and to group news covering the same food safety event into clusters. The results are evaluated based on:
