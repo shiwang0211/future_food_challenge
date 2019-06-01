@@ -104,15 +104,15 @@ standard urllib and BeautifulSoup packages are used to extract the page title. S
 
 ## Tokenization:
 standard spacy library is used to 
-- 1) remove stop words, punctuations, numbers, space and other non-alpha characters. 
-- 2) perform lemmatization on each individual word.
+- remove stop words, punctuations, numbers, space and other non-alpha characters. 
+- perform lemmatization on each individual word.
 
 ## Data Preprocessing:
 - Standard collections. Counter is used to get statistical word frequency.  
 - The garbage words are defined as words with count frequency less than 3 times,  or the length of word shorter than 3 (such as lo, ta, etc.) . These garbage words are removed from text.
 - **Binary classification model** (to determine whether a news is food-safety related or not): standard logistic regression from scikit learn with manually generated features including:
 
-## Tweet-related Featue=res 
+## Tweet-related Featue
 *   Hashtags: (relevant news are more likely to have hashtags like #Recall, #SmartNews, etc.)
 *   Mentions: (relevant news are more likely to have mentions like @googlenews)
 *   UserNames: (a tweet with username including ‘News’ is more likely to be relevant news) 
